@@ -8,6 +8,7 @@ function App() {
   return (
     <>
       <Header companyName={cName} phone='8888888888' email='pk@gmail.com' />
+      <Header companyName={cName} phone='8888888888' email='pk@gmail.com'>  </Header>
       <section className='w-[100%] bg-lime-400'>
         <h1 className='text-center text-[50px] font-bold'>Our Product</h1>
         <div className='max-w-[1320px] grid grid-cols-4 gap-5 mx-auto py-2'>
